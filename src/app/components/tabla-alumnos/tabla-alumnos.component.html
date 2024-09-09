@@ -1,0 +1,17 @@
+<h1>Alumnos:</h1>
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Promedio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let alumno of alumnos">
+        <td>{{alumno.nombre}}</td>
+        <td>{{alumno.apellido}}</td>
+        <td>{{alumno.promedio}}</td>
+      </tr>
+    </tbody>
+  </table>
